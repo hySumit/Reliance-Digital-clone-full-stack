@@ -1,0 +1,672 @@
+[{
+  "_id": 1,
+  "product_name": "Symphony Sumo 75XL Desert Air Cooler with i-Pure technology, 75 Litres",
+  "product_image": "https://www.reliancedigital.in/medias/Symphony-75XL-Air-Cooler-491666297-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMTYxMXxpbWFnZS9qcGVnfGltYWdlcy9oYzMvaDAzLzk5NjgzODg5NjQzODIuanBnfDc2YjAwNjgwMzc3OTY5NTk4NzM2ZmRjMjRkNWNkMjQyMDgzNDBmY2NkNzEzOTY4MTMyMjJkYTg4YzJlNWZlMGI",
+  "price": "13,990.00",
+  "stars": 5,
+  "mrp": "15,999.00",
+  "disscount": "1,509",
+  "offer": true,
+  "category":"cooler"
+},
+{
+  "_id": 2,
+  "product_name": "Symphony Air Cooler with i-Pure technology, 75 Litres",
+  "product_image": "https://www.reliancedigital.in/medias/Havells-Air-Cooler-494338763-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxOTEyN3xpbWFnZS9qcGVnfGltYWdlcy9oM2QvaGJjLzEwMTA4NzAzMDgwNDc4LmpwZ3w3NjE1ZTY2ZjQ3YzkyOTY1MTJkODI5ZmFkNzY1OGEzYzA5OTA4MTJkNzMyNjA2NjE4ODRiNGI2ODZiMmYyYjg4",
+  "stars": 5,
+  "price": "13,990.00",
+  "mrp": "15,999.00",
+  "disscount": "1,509",
+  "offer": true,
+  "category":"cooler"
+},
+{
+  "_id": 3,
+  "product_name": "Bajaj Air Cooler with i-Pure technology, 75 Litres",
+  "product_image": "https://www.reliancedigital.in/medias/Symphony-75XL-Air-Cooler-491666297-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMTYxMXxpbWFnZS9qcGVnfGltYWdlcy9oYzMvaDAzLzk5NjgzODg5NjQzODIuanBnfDc2YjAwNjgwMzc3OTY5NTk4NzM2ZmRjMjRkNWNkMjQyMDgzNDBmY2NkNzEzOTY4MTMyMjJkYTg4YzJlNWZlMGI",
+  "price": "13,990.00",
+  "stars": 5,
+  "mrp": "15,999.00",
+  "disscount": "1,509",
+  "offer": true,
+  "category":"cooler"
+},
+{
+  "_id": 4,
+  "product_name": "Apple Air Cooler with i-Pure technology, 75 Litres",
+  "product_image": "https://www.reliancedigital.in/medias/Symphony-Diet-50T-Air-Cooler-490555337-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0Mzg4fGltYWdlL2pwZWd8aW1hZ2VzL2hlNi9oM2YvMTAxMTAyMTc0NTM1OTguanBnfGIzODQzNGUzNTE4NGE4MTc5ZGEwYmFjYmI2NDFmNDZhMmU4MmI4MDVmMDA1MTZmZTBiYjgzZjg3ZTg3NDJhYjA",
+  "stars": 5,
+  "price": "13,990.00",
+  "mrp": "15,999.00",
+  "disscount": "1,509",
+  "offer": true,
+  "category":"cooler"
+},
+{
+  "_id": 5,
+  "product_name": "Omega Air Cooler with i-Pure technology, 75 Litres",
+  "product_image": "https://www.reliancedigital.in/medias/Bajaj-Air-Cooler-494338771-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzMTA2M3xpbWFnZS9qcGVnfGltYWdlcy9oNzEvaDI1LzEwMTA4NzA2MDk1MTM0LmpwZ3xlOWZmZGI4ZDZiZDZhNjAzYWY3NjA1MjBlMGVlMzAzM2EzNTNhOTMxZTI2YzY5MDQ0ZjRhMDE4MmRhZTg2Y2Y2",
+  "stars": 5,
+  "price": "13,990.00",
+  "mrp": "15,999.00",
+  "disscount": "1,509",
+  "offer": true,
+  "category":"cooler"
+},
+{
+  "_id": 6,
+  "product_name": "Titus Air Cooler with i-Pure technology, 75 Litres",
+  "product_image": "https://www.reliancedigital.in/medias/Symphony-Diet-50T-Air-Cooler-490555337-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0Mzg4fGltYWdlL2pwZWd8aW1hZ2VzL2hlNi9oM2YvMTAxMTAyMTc0NTM1OTguanBnfGIzODQzNGUzNTE4NGE4MTc5ZGEwYmFjYmI2NDFmNDZhMmU4MmI4MDVmMDA1MTZmZTBiYjgzZjg3ZTg3NDJhYjA",
+  "stars": 5,
+  "price": "13,990.00",
+  "mrp": "15,999.00",
+  "disscount": "1,509",
+  "offer": true,
+  "category":"cooler"
+},
+{
+  "_id": 7,
+  "product_name": "Titanic Air Cooler with i-Pure technology, 75 Litres",
+  "product_image": "https://www.reliancedigital.in/medias/Havells-Kace-75-Cooler-493692107-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNTMwNHxpbWFnZS9qcGVnfGltYWdlcy9oMmIvaDQ0Lzk5NjMwMTc4MzA0MzAuanBnfDY1N2NhZTU4YTZhMzg4ZjJlNmVkYWIwY2IxZjJkZGViYmE1ZTc3MTYxMmU0MzVkMmRhNTdmOTk5M2ZmMmFmNTA",
+  "stars": 5,
+  "price": "13,990.00",
+  "mrp": "15,999.00",
+  "disscount": "1,509",
+  "offer": true,
+  "category":"cooler"
+},
+{
+  "_id": 8,
+  "product_name": "Samsung Air Cooler with i-Pure technology, 75 Litres",
+  "product_image": "https://www.reliancedigital.in/medias/Havells-GHRACAAD008-Air-Cooler-492664512-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxOTU0NHxpbWFnZS9qcGVnfGltYWdlcy9oYzEvaDkzLzk5NjMwMTc1MDI3NTAuanBnfDA5YTk2N2I1MjY2MmYzYmU3MzhiODhiODUwNzcxZTNmYmU4MGY4MGQ1MWNjODhhMjQxZDBmOGEzZGQ3YzJmMmU",
+  "stars": 5,
+  "price": "13,990.00",
+  "mrp": "15,999.00",
+  "disscount": "1,509",
+  "offer": true,
+  "category":"cooler"
+},
+{
+  "_id": 9,
+  "product_name": "Great Air Cooler with i-Pure technology, 75 Litres",
+  "product_image": "https://www.reliancedigital.in/medias/Symphony-Diet-Air-Cooler-491666305-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w5MDE1fGltYWdlL2pwZWd8aW1hZ2VzL2g2OS9oYzcvOTk2ODQwMDMzNDg3OC5qcGd8MzM0N2I1Y2RlZmFiZjBmMTEwODgzNWJkZWVjNjY5ZmM5OGQ2OTNjNzRlMmRiMDVjNzAwZGFkNzM2MWZjMGI5OA",
+  "stars": 5,
+  "price": "13,990.00",
+  "mrp": "15,999.00",
+  "disscount": "1,509",
+  "offer": true,
+  "category":"cooler"
+},
+{
+  "_id": 10,
+  "product_name": "Samsung Air Cooler with i-Pure technology, 75 Litres",
+  "product_image": "https://www.reliancedigital.in/medias/Havells-Kace-75-Cooler-493692107-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNTMwNHxpbWFnZS9qcGVnfGltYWdlcy9oMmIvaDQ0Lzk5NjMwMTc4MzA0MzAuanBnfDY1N2NhZTU4YTZhMzg4ZjJlNmVkYWIwY2IxZjJkZGViYmE1ZTc3MTYxMmU0MzVkMmRhNTdmOTk5M2ZmMmFmNTA",
+  "stars": 5,
+  "price": "13,990.00",
+  "mrp": "15,999.00",
+  "disscount": "1,509",
+  "offer": true,
+  "category":"cooler"
+},
+{
+  "_id": 11,
+  "product_name": "Apple MLWK3HN/A Airpods Pro with Magsafe Charging Case",
+  "product_image": "https://www.reliancedigital.in/medias/Apple-Airpods-pro-492571631-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMTAyNnxpbWFnZS9qcGVnfGltYWdlcy9oZjgvaDg3Lzk4MjU2MDg2NjMwNzAuanBnfGRlN2MxYjQxYWMyMmU1MzFlY2E0NzkxNGQ4ZjNmNTJhZGExZjIxODQ4MTZkMjA5ZmE2YWU1N2FmNmJhOWJkYjM",
+  "price": "15,990.00",
+  "stars": 4.2,
+  "offer": true,
+  "category":"headphones"
+},
+{
+  "_id": 12,
+  "product_name": "Noise Three Wireless Headphone, Upto 70 hrs of playtime, Dual Device Pairing, Gaming Mode",
+  "product_image": "https://www.reliancedigital.in/medias/Noise-Three-Wireless-Headphone-494249951-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzMTA1MnxpbWFnZS9qcGVnfGltYWdlcy9oY2QvaGJlLzEwMDg1MTUxNjA0NzY2LmpwZ3w2YWQxMWNkYjBlZmViZTc1Zjk1NGJmMzk5OTU1OTVmN2U3MWYyYjgyZjJhMGQ0MTNiM2JmZTZiNjc2YjBiMDUz",
+  "stars": 5,
+  "price": "1,999.00",
+  "offer": false,
+  "category":"headphones"
+},
+{
+  "_id": 13,
+  "product_name": "OnePlus Bullets Z2 Bluetooth Wireless in Ear Earphones with Mic",
+  "product_image": "https://www.reliancedigital.in/medias/OnePlus-Bullets-Z2-Earphone-492913029-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w5OTc4fGltYWdlL2pwZWd8aW1hZ2VzL2g0OS9oZjcvOTg1NzY4OTYxNjQxNC5qcGd8NjdkMjhiODI0MDVlOTU2ZDNlYmM2YjY4ZTUxMWRhYmE0YzMyZmZkMzUwYWNiNDBhYjBmOWIzMGU1NWUwMWMyMw",
+  "price": "1,399.00",
+  "stars": 3,
+  "offer": true,
+  "category":"headphones"
+},
+{
+  "_id": 14,
+  "product_name": "Sony WF-1000XM4 True Wireless Earbuds with Noise Cancellation, 8 hrs of playtime",
+  "product_image": "https://www.reliancedigital.in/medias/Sony-WF-1000XM4-Headphones-and-Headsets-492579491-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzMDE4N3xpbWFnZS9qcGVnfGltYWdlcy9oOTYvaGUyLzk3NTU3MDQ2NTU5MDIuanBnfGQyMDMyYjEwYTBhOGMyY2I1YzJkNzM3MjQ2MDIwMTE2MjY4OWU1YTNkZGM0ZjRkNjRmOGIxYmE2YTcyNjNlNWE",
+  "stars": 4,
+  "price": "14,529.00",
+  "offer": true,
+  "category":"headphones"
+},
+{
+  "_id": 15,
+  "product_name": "Apple Airpods Pro (2nd Gen) with MagSafe Charging Case, Active Noise Cancellation",
+  "product_image": "https://www.reliancedigital.in/medias/Apple-Airpods-Pro-493177748-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMDEzOXxpbWFnZS9qcGVnfGltYWdlcy9oMzQvaDFjLzk4OTA3NTEwMjEwODYuanBnfGEwYjAwMzA4NmMyOGZhMTFhY2NlOTRkMzJmNWI5NWNhMmJmMzZkNzBjZmUyMjFlOWNlNzE2ZDYwZDJlY2ZlOWM",
+  "stars": 4,
+  "price": "19,990.00",
+  "offer": true,
+  "category":"headphones"
+},
+{
+  "_id": 16,
+  "product_name": "Apple Airpods Pro (2nd Gen-USB-C type) with MagSafe Charging Case True Wireless",
+  "product_image": "https://www.reliancedigital.in/medias/Apple-Airpods-Pro-2nd-Gen-493839243-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMDE0N3xpbWFnZS9qcGVnfGltYWdlcy9oNjcvaDI5LzEwMDUwNzMxNDA5NDM4LmpwZ3w1MGE2NjQxZWU0M2Y5ZmNkY2Y3YzYwNmMzNzc2YTRmZmQ3NDhhZGQ3MzY4MDU5NzhjYTdhMzhlODM1Zjk4NTQw",
+  "stars": 5,
+  "price": "24,990.00",
+  "offer": true,
+  "category":"headphones"
+},
+{
+  "_id": 17,
+  "product_name": "boAt Rockerz 410 Bluetooth Headphone with Mic, Super Extra Bass, Up to 8H Playtime",
+  "product_image": "https://www.reliancedigital.in/medias/Boat-Rockerz-410-Headphone-491598555-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxNDg1M3xpbWFnZS9qcGVnfGltYWdlcy9oMmQvaGE4Lzk3NjU0MDYyNDQ4OTQuanBnfDNiYmEyNjQzOTQ5ZWU1NGFhNTNkMTBmMjNhY2M4NmZkMmMzMWMyOWQ5NmQ0NTZkNGQ1YzAwOWQ4NDQ1ZmZiMzg",
+  "stars": 4,
+  "price": "990.00",
+  "offer": true,
+  "category":"headphones"
+},
+{
+  "_id": 18,
+  "product_name": "Sony XB910N Wireless Bluetooth Headphone with Extra Bass, Upto 30 hrs of playtime",
+  "product_image": "https://www.reliancedigital.in/medias/Sony-XB910N-Headphones-492796750-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDY1MXxpbWFnZS9qcGVnfGltYWdlcy9oOTgvaDBiLzk4MDkxMjI4MjAxMjYuanBnfDNjMzIxNmZkZWM3M2FiZjg2ZGZiNjJjZTQzZWYzZjNmMGEyZTI3NjVhMDU4MWExNmNiMDUxNDk1NDAxODI2OWQ",
+  "stars": 5,
+  "price": "7,684.00",
+  "offer": true,
+  "category":"headphones"
+},
+{
+  "_id": 19,
+  "product_name": "boAt Nirvana Ion ANC True Wireless Earbuds with Upto 120 Hours of Total Playback",
+  "product_image": "https://www.reliancedigital.in/medias/boAt-Nirvana-Ion-Earbud-494249958-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1Mjk2NHxpbWFnZS9qcGVnfGltYWdlcy9oNmMvaGQ5LzEwMDkyNTIyNjM1Mjk0LmpwZ3xiZmE4NmE5ZjZkZTYzYjM1ZTc3ZmUyMGFmMzQyZTNhNGE2Yjg0NzY2NzQxMjYwYzUwMjgyZmJlNGJmMDdiYmQ0",
+  "stars": 3,
+  "price": "2,499.00",
+  "offer": true,
+  "category":"headphones"
+},
+{
+  "_id": 20,
+  "product_name": "Apple EarPods with Lightning Connector, Protection from sweat and water",
+  "product_image": "https://www.reliancedigital.in/medias/Apple-Wired-EarPods-with-Lightning-Connector-White-491277319-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMzUyMnxpbWFnZS9qcGVnfGltYWdlcy9oMmQvaDcwLzg5MzI3MTk3MjI1MjYuanBnfDk3MmQ1OWQyNTk2MjJmYjQyOWY0MGJkYzYyM2M0MGVhZTFlMjVhZjU5ZjVhODNkYzgxMWJkMGQzZTdhNTdmZjY",
+  "stars": 5,
+  "price": "1.599.00",
+  "offer": true,
+  "category":"headphones"
+},
+{
+  "_id": 21,
+  "product_name": "Acer EK220Q 54.6 cm (21.5 inch) with VA Panel Technology 1920 X 1080 Resolution Refresh Rate 75Hz Black Monitor",
+  "product_image": "https://www.reliancedigital.in/medias/Acer-EK220Q-LED-492574200-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxNDg3MXxpbWFnZS9qcGVnfGltYWdlcy9oYzUvaDVjLzk4MzI4NTk5MjY1NTguanBnfDZlMDYwN2JlN2FkYzI1OGY5OWU2MzNlZWJiMDg2MWI4NTVkYzU0NzdhMzQ5YWU3YzA3NzMyOTlkODIyZjY0ZWU",
+  "price": "5,399.00",
+  "stars": 2,
+  "offer": false,
+  "category":"monitors"
+},
+{
+  "_id": 22,
+  "product_name": "ZEBRONICS MT61-ZEB A22FHD 54.6 cm (21.5 inch), 1920 x 1080 Resolution, Black Monitor",
+  "product_image": "https://www.reliancedigital.in/medias/ZEBRONICS-MT61-Monitor-492849914-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzNTI2N3xpbWFnZS9qcGVnfGltYWdlcy9oNmIvaDU1Lzk4MTI4NzcxMTU0MjIuanBnfDNjYWZmNDg5OTFjNWI1YzZjYmZjZDkyODQzMzAyYzVhYTY5NjdlZWI1YjNlMWYwMzE1YTU4ZDdkYTI2ZGZlMTc",
+  "stars": 5,
+  "price": "4,999.00",
+  "offer": false,
+  "category":"monitors"
+},
+{
+  "_id": 23,
+  "product_name": "Acer HA220Q 54.61 cm (21.5 inch) with IPS Panel Technology 1920 x 1080 Resolution 2W Speakers White Monitor",
+  "product_image": "https://www.reliancedigital.in/medias/Acer-HA220Q-Monitors-492849987-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w4ODc1NHxpbWFnZS9qcGVnfGltYWdlcy9oMjYvaDUyLzk4MTczMDMzODQwOTQuanBnfDRiMzY1YjAwNmUxNzUxMjFkYzcwOTA3ZTRlMmY0ZjliMjI2NGExMmQzNmUyYTE3NmNhMWZhODI1NmU1MDhiZDQ",
+  "price": "11,499.00",
+  "stars": 4,
+  "offer": true,
+  "category":"monitors"
+},
+{
+  "_id": 24,
+  "product_name": "ZEBRONICS MT52-ZEB A19HD 46.9 cm (18.5 inch), 1366 x 768 Resolution, Black Monitor",
+  "product_image": "https://www.reliancedigital.in/medias/Zebronics-MT52-ZEB-A19HD-LED-492849912-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMzQ2N3xpbWFnZS9qcGVnfGltYWdlcy9oMTcvaDBiLzk4Mjk4MDMyOTQ3NTAuanBnfDIwMjRlNzkwM2EzMDY4MmJhNjUzYTFmOGY4YzBiNjg3OTIyZWQ5ZWE0MzU3NGZhYWNiYjE5MDU2NDM5Njc4MjA",
+  "stars": 4,
+  "price": "4,999.00",
+  "offer": true,
+  "category":"monitors"
+},
+{
+  "_id": 25,
+  "product_name": "LG 19M38AB 46.99 cm (18.5 Inch) TN Panel 1366 x 768 Black Monito",
+  "product_image": "https://www.reliancedigital.in/medias/Lg-19M38AB-Monitor-493178501-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzMTA5MnxpbWFnZS9qcGVnfGltYWdlcy9oOGQvaDZhLzk5MTAxODAxNTEzMjYuanBnfGJkYjUwYjFiNTljZjY5ZTIwMDEyZmU3NzlkYTI0ZGJkNDQ1NTZmYzdhOGQwNGRkOGJiNGE1YzAxMWQyNzg2Zjc",
+  "stars": 4,
+  "price": "5,539.00",
+  "offer": true,
+  "category":"monitors"
+},
+{
+  "_id": 26,
+  "product_name": "Samsung LS32BM500EWXXL 81.3 cm (32 inch) VA Panel, 1920 X 1080 Resolution, Built-in Speaker",
+  "product_image": "https://www.reliancedigital.in/medias/Samsung-LS32BM500EWXXL-computer-monitor-493178931-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MzUwNHxpbWFnZS9qcGVnfGltYWdlcy9oMzUvaDQ3Lzk5MjIwNjk2MjY5MTAuanBnfDIyNjhmNmM1NmU2ZDFkODJjODQ3OWNjMTUzNDRmNzZkMjczMWMwYTZmYzdhYTAyZTMyMzVhZmQ1NWQwNzdiMTM",
+  "stars": 5,
+  "price": "24,990.00",
+  "offer": true,
+  "category":"monitors"
+},
+{
+  "_id": 27,
+  "product_name": "Dell D2020H. 49.53 cm (19.5-inch) 1600 x 900 Resolution, Black Monitor",
+  "product_image": "https://www.reliancedigital.in/medias/Dell-D2020H-Monitors-491946999-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNjY2NnxpbWFnZS9qcGVnfGltYWdlcy9oODYvaGY2Lzk3NzI3OTY4NzA2ODYuanBnfGExMWVlZjYyMGMzYWY1MDRiYjM4ZDM2NGJmZWQzYmQyYWUyMDg5ZDY4MTdiNjhiYzFhYjhiZTA1MjQ1NzVkYjQ",
+  "stars": 4,
+  "price": "6,199.00",
+  "offer": true,
+  "category":"monitors"
+},
+{
+  "_id": 28,
+  "product_name": "Acer EK240YC 60.5 cm (23.8 inch) with VA Panel Technology 1920 x 1080 Resolution Refresh Rate 75 Hz Black Monitor",
+  "product_image": "https://www.reliancedigital.in/medias/Acer-EK240YC-LED-492574202-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMjgxN3xpbWFnZS9qcGVnfGltYWdlcy9oOGIvaDY5Lzk4MzI4NTkyNzExOTguanBnfDJjNjJmOTgyMDdmNDZiNDljZDk4ZTgzYjA3MjU3ZGNiOGFhOWVlNGI2MmE1MWNkYTE2ZWIxY2NmMTYyYzIwN2Q",
+  "stars": 5,
+  "price": "7,684.00",
+  "offer": true,
+  "category":"monitors"
+},
+{
+  "_id": 29,
+  "product_name": "boAt Nirvana Ion ANC True Wireless Earbuds with Upto 120 Hours of Total Playback",
+  "product_image": "https://www.reliancedigital.in/medias/ENTER-A06-Computer-Monitor-492850691-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w3Mzc0OHxpbWFnZS9qcGVnfGltYWdlcy9oYWMvaGMxLzk4NTIyMzkwODU1OTguanBnfDQxMmM2ZDdiMjAxYjU1YWVjM2U1NTFlYjQ0ODM1NGFkMjg5NjI4NTJhNjNhMTQzYjM4ZGI0MzdlMzU1ODdkNDI",
+  "stars": 3,
+  "price": "2,499.00",
+  "offer": true,
+  "category":"monitors"
+},
+{
+  "_id": 30,
+  "product_name": "BenQ GW2780 68.58 cm (27 inch) IPS, Full HD, Built-in Speakers, HDMI, Display Port",
+  "product_image": "https://www.reliancedigital.in/medias/Benq-GW2780-Monitor-492850948-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNTA4OXxpbWFnZS9qcGVnfGltYWdlcy9oYWYvaDlhLzk4NjMyNTgxMTIwMzAuanBnfDU1M2Q5OTAwNDU5NjViMjc0ZWZjNjNjZmMyNDVkM2M4NTNjNmMxMmJkNzhjOTc1OGEzMmMwOWZhZjBhZTM1ZWU",
+  "stars": 5,
+  "price": "11,399.00",
+  "offer": true,
+  "category":"monitors"
+},
+{
+  "_id": 31,
+  "product_name": "Samsung Galaxy A15 5G 128 GB, 8 GB RAM Blue Black, Mobile Phone",
+  "product_image": "https://www.reliancedigital.in/medias/SamsungA15-Smartphone-494351803-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w2NjA1OXxpbWFnZS9qcGVnfGltYWdlcy9oNWQvaGJhLzEwMTI5MDAxNDgwMjIyLmpwZ3wzNjZmNWEzMTA1ZDZiMzNlMmFlYzk2NDE3NzQzY2EzYWYwN2FlNDgwNzk2MTdiZmNjNmI3NDNlODIxY2ZiMWVl",
+  "price": "19,499.00",
+  "stars": 4,
+  "offer": false,
+  "category":"phones"
+},
+{
+  "_id": 32,
+  "product_name": "Samsung Galaxy A25 5G 128 GB, 8 GB RAM Yellow, Mobile Phone",
+  "product_image": "https://www.reliancedigital.in/medias/SamsungA25-Smartphone-494351796-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w3MzMwMHxpbWFnZS9qcGVnfGltYWdlcy9oYWMvaGFiLzEwMTI4OTgwNzcwODQ2LmpwZ3xjNmZiNGU2MTVlYjViMTBlOWY2NzQ2Y2E1MTExZDg4MDc4N2RkNGJhMjRiM2IzZTk0N2Y3YWFhNjQwMDUyNTNi",
+  "stars": 5,
+  "price": "26,999.00",
+  "offer": false,
+  "category":"phones"
+},
+{
+  "_id": 33,
+  "product_name": "Oppo Reno 11 5G, Green Mobile Phone (8 GB RAM, 128 GB ROM, 6.7 inch (17.1 cm) AMOLED FHD+ Display)",
+  "product_image": "https://www.reliancedigital.in/medias/Oppo-Reno-Green-Smartphone-494352010-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w3MDM5NXxpbWFnZS9qcGVnfGltYWdlcy9oODAvaDI3LzEwMTAwMTQ4Njk5MTY2LmpwZ3xhOGRjODVmNjkxODE0NjBlMTUwNjY0ZmRhYTJhN2NiOGJkNmZhMWYzNGE1MmEwNDRkMDMzMzkwODViODEwMWYw",
+  "price": "27,999.00",
+  "stars": 4,
+  "offer": true,
+  "category":"phones"
+},
+{
+  "_id": 34,
+  "product_name": "Vivo Y28 5G 128 GB, 8 GB RAM, Aqua, Mobile Phone",
+  "product_image": "https://www.reliancedigital.in/medias/Vivo-Y28-5G-Aqua-Smartphone-494351960-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0ODk2OHxpbWFnZS9qcGVnfGltYWdlcy9oMzQvaGZhLzEwMDk1MzY5NjgyOTc0LmpwZ3w5NDhmNTZkNTM5ZWRjMWEyYmJiNDdjZTBiNzc4MDBhMDYwMDc1ZWYxNTI5MzM3NjIwNTY0N2I2OTI2YzBkYjVj",
+  "stars": 3,
+  "price": "16,999.00",
+  "offer": true,
+  "category":"phones"
+},
+{
+  "_id": 35,
+  "product_name": "Vivo V29 5G 256 GB, 12 GB RAM, Himalayan Blue, Mobile Phone",
+  "product_image": "https://www.reliancedigital.in/medias/Vivo-V29-494267950-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0MDU5NXxpbWFnZS9qcGVnfGltYWdlcy9oZDkvaGJmLzEwMDU3NjgwNDUzNjYyLmpwZ3wzZjk2MjM2ZTczZWI2ODNjMjZmNmZmMDFhMThlMTM5ZDUzOWMwOGFmNzIzNmM3Mzg1Y2I2Njg1YmRjZmYzNzk5",
+  "stars": 4,
+  "price": "36,999.00",
+  "offer": true,
+  "category":"phones"
+},
+{
+  "_id": 36,
+  "product_name": "Oppo A38 128 GB, 4 GB RAM, Gold, Mobile Phone",
+  "product_image": "https://www.reliancedigital.in/medias/Oppo-A38-128-GB-4-GB-RAM-Gold-Smartphone-493839090-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w4MTE5OHxpbWFnZS9qcGVnfGltYWdlcy9oYjEvaDJjLzEwMDQ5NjYzNTAwMzE4LmpwZ3wyOWZlODFhNGY3Nzg5YWJiOWNkODNkZjMzYjZlMzUxYzdjM2VkMjIzM2VhYzY4OTE4NzRmNzRmZjAwYjA4MjY0",
+  "stars": 3,
+  "price": "9,999.00",
+  "offer": true,
+  "category":"phones"
+},
+{
+  "_id": 37,
+  "product_name": "Oppo A59 5G 128 GB, 4 GB RAM, Starry Black, Mobile Phone",
+  "product_image": "https://www.reliancedigital.in/medias/Oppo-A-series-Starry-Black-Mobile-Phone-494351586-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMzMwNnxpbWFnZS9qcGVnfGltYWdlcy9oZjYvaGE5LzEwMDg0NDM0NTc1MzkwLmpwZ3wyNmQzMWM0ODQ4NDg1MDZkZmE4ZGNiNDVlNjYwYzM2Zjg2YzRlOWFlZGUwYjAwMDczM2RkYjI0N2U4YzRmMWZh",
+  "stars": 4,
+  "price": "13,199.00",
+  "offer": true,
+  "category":"phones"
+},
+{
+  "_id": 38,
+  "product_name": "Oppo A79 5G 128 GB, 8 GB RAM, Green, Mobile Phone",
+  "product_image": "https://www.reliancedigital.in/medias/Oppo-A79-Green-Mobile-Phone-494268183-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1NzgwMnxpbWFnZS9qcGVnfGltYWdlcy9oYjMvaDM5LzEwMDcxOTM2NDk5NzQyLmpwZ3w1NzQzZjg3M2Y1OGIyZDliYTJjMWQxMjZiZTllZjk0NGVkOGFjZGM0M2I5OWM5N2JjMzQyMWZmYTE1MGZiMzBk",
+  "stars": 5,
+  "price": "17,499.00",
+  "offer": true,
+  "category":"phones"
+},
+{
+  "_id": 39,
+  "product_name": "Oppo A38 128 GB, 4 GB RAM, Gold, Mobile Phone",
+  "product_image": "https://www.reliancedigital.in/medias/Oppo-A38-128-GB-4-GB-RAM-Gold-Smartphone-493839090-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w4MTE5OHxpbWFnZS9qcGVnfGltYWdlcy9oYjEvaDJjLzEwMDQ5NjYzNTAwMzE4LmpwZ3wyOWZlODFhNGY3Nzg5YWJiOWNkODNkZjMzYjZlMzUxYzdjM2VkMjIzM2VhYzY4OTE4NzRmNzRmZjAwYjA4MjY0",
+  "stars": 3,
+  "price": "9,999.00",
+  "offer": true,
+  "category":"phones"
+},
+{
+  "_id": 40,
+  "product_name": "Vivo V29 5G 256 GB, 12 GB RAM, Himalayan Blue, Mobile Phone",
+  "product_image": "https://www.reliancedigital.in/medias/Vivo-V29-494267950-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0MDU5NXxpbWFnZS9qcGVnfGltYWdlcy9oZDkvaGJmLzEwMDU3NjgwNDUzNjYyLmpwZ3wzZjk2MjM2ZTczZWI2ODNjMjZmNmZmMDFhMThlMTM5ZDUzOWMwOGFmNzIzNmM3Mzg1Y2I2Njg1YmRjZmYzNzk5",
+  "stars": 4,
+  "price": "36,999.00",
+  "offer": true,
+  "category":"phones"
+},
+{
+  "_id": 41,
+  "product_name": "Aquaguard Superio 5 Litres 45 Watts RO+UV+MTDS+SS Water Purifier",
+  "product_image": "https://www.reliancedigital.in/medias/Aquaguard-Superio-Water-Purifier-493692085-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMzY3OXxpbWFnZS9qcGVnfGltYWdlcy9oM2IvaGE1LzEwMDI3Nzc5NzE5MTk4LmpwZ3xjYzNhM2ExNzVhNjgyYjJjYjNkMTQ5YzE1ZWI4Y2IzM2EwYjE3ZWM1MzMzODZjNzAyMDg5YzIwMGMyY2U3MGRj",
+  "price": "19,500.00",
+  "stars": 4,
+  "offer": false,
+  "category":"ro"
+},
+{
+  "_id": 42,
+  "product_name": "Livpure Allura Premia 7 Litre RO+UV+UF+Alk+Cu Water Purifier, 10 Stage Purification Technology",
+  "product_image": "https://www.reliancedigital.in/medias/Livpure-Allura-Premia-Water-Purifier-494404290-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNzM4MHxpbWFnZS9qcGVnfGltYWdlcy9oYjQvaDMzLzEwMTIzMDY1MzI3NjQ2LmpwZ3w0N2U0MTJmYWJkOGNhNjM3NTljMWNjOWI0OThkMWE2Y2RmZjJmYTk4MWI2ZGY3YWQwNGQyMWJkNWY4ZWZkYjZj",
+  "price": "19,990.00",
+  "stars": 4,
+  "offer": false,
+  "category":"ro"
+},
+{
+  "_id": 43,
+  "product_name": "Aquaguard Superio 5 Litres 45 Watts RO+UV+MTDS+SS Water Purifier",
+  "product_image": "https://www.reliancedigital.in/medias/Aquaguard-Superio-Water-Purifier-493692085-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMzY3OXxpbWFnZS9qcGVnfGltYWdlcy9oM2IvaGE1LzEwMDI3Nzc5NzE5MTk4LmpwZ3xjYzNhM2ExNzVhNjgyYjJjYjNkMTQ5YzE1ZWI4Y2IzM2EwYjE3ZWM1MzMzODZjNzAyMDg5YzIwMGMyY2U3MGRj",
+  "price": "19,500.00",
+  "stars": 4,
+  "offer": false,
+  "category":"ro"
+},
+{
+  "_id": 44,
+  "product_name": "Livpure Allura Premia 7 Litre RO+UV+UF+Alk+Cu Water Purifier, 10 Stage Purification Technology",
+  "product_image": "https://www.reliancedigital.in/medias/Livpure-Allura-Premia-Water-Purifier-494404290-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNzM4MHxpbWFnZS9qcGVnfGltYWdlcy9oYjQvaDMzLzEwMTIzMDY1MzI3NjQ2LmpwZ3w0N2U0MTJmYWJkOGNhNjM3NTljMWNjOWI0OThkMWE2Y2RmZjJmYTk4MWI2ZGY3YWQwNGQyMWJkNWY4ZWZkYjZj",
+  "price": "19,990.00",
+  "stars": 4,
+  "offer": false,
+  "category":"ro"
+},
+{
+  "_id": 45,
+  "product_name": "Aquaguard Superio 5 Litres 45 Watts RO+UV+MTDS+SS Water Purifier",
+  "product_image": "https://www.reliancedigital.in/medias/Aquaguard-Superio-Water-Purifier-493692085-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMzY3OXxpbWFnZS9qcGVnfGltYWdlcy9oM2IvaGE1LzEwMDI3Nzc5NzE5MTk4LmpwZ3xjYzNhM2ExNzVhNjgyYjJjYjNkMTQ5YzE1ZWI4Y2IzM2EwYjE3ZWM1MzMzODZjNzAyMDg5YzIwMGMyY2U3MGRj",
+  "price": "19,500.00",
+  "stars": 4,
+  "offer": false,
+  "category":"ro"
+},
+{
+  "_id": 46,
+  "product_name": "Livpure Allura Premia 7 Litre RO+UV+UF+Alk+Cu Water Purifier, 10 Stage Purification Technology",
+  "product_image": "https://www.reliancedigital.in/medias/Livpure-Allura-Premia-Water-Purifier-494404290-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNzM4MHxpbWFnZS9qcGVnfGltYWdlcy9oYjQvaDMzLzEwMTIzMDY1MzI3NjQ2LmpwZ3w0N2U0MTJmYWJkOGNhNjM3NTljMWNjOWI0OThkMWE2Y2RmZjJmYTk4MWI2ZGY3YWQwNGQyMWJkNWY4ZWZkYjZj",
+  "price": "19,990.00",
+  "stars": 4,
+  "offer": false,
+  "category":"ro"
+},
+{
+  "_id": 47,
+  "product_name": "Aquaguard Superio 5 Litres 45 Watts RO+UV+MTDS+SS Water Purifier",
+  "product_image": "https://www.reliancedigital.in/medias/Aquaguard-Superio-Water-Purifier-493692085-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMzY3OXxpbWFnZS9qcGVnfGltYWdlcy9oM2IvaGE1LzEwMDI3Nzc5NzE5MTk4LmpwZ3xjYzNhM2ExNzVhNjgyYjJjYjNkMTQ5YzE1ZWI4Y2IzM2EwYjE3ZWM1MzMzODZjNzAyMDg5YzIwMGMyY2U3MGRj",
+  "price": "19,500.00",
+  "stars": 4,
+  "offer": false,
+  "category":"ro"
+},
+{
+  "_id": 48,
+  "product_name": "Livpure Allura Premia 7 Litre RO+UV+UF+Alk+Cu Water Purifier, 10 Stage Purification Technology",
+  "product_image": "https://www.reliancedigital.in/medias/Livpure-Allura-Premia-Water-Purifier-494404290-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNzM4MHxpbWFnZS9qcGVnfGltYWdlcy9oYjQvaDMzLzEwMTIzMDY1MzI3NjQ2LmpwZ3w0N2U0MTJmYWJkOGNhNjM3NTljMWNjOWI0OThkMWE2Y2RmZjJmYTk4MWI2ZGY3YWQwNGQyMWJkNWY4ZWZkYjZj",
+  "price": "19,990.00",
+  "stars": 4,
+  "offer": false,
+  "category":"ro"
+},
+{
+  "_id": 49,
+  "product_name": "Aquaguard Superio 5 Litres 45 Watts RO+UV+MTDS+SS Water Purifier",
+  "product_image": "https://www.reliancedigital.in/medias/Aquaguard-Superio-Water-Purifier-493692085-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMzY3OXxpbWFnZS9qcGVnfGltYWdlcy9oM2IvaGE1LzEwMDI3Nzc5NzE5MTk4LmpwZ3xjYzNhM2ExNzVhNjgyYjJjYjNkMTQ5YzE1ZWI4Y2IzM2EwYjE3ZWM1MzMzODZjNzAyMDg5YzIwMGMyY2U3MGRj",
+  "price": "19,500.00",
+  "stars": 4,
+  "offer": false,
+  "category":"ro"
+},
+{
+  "_id": 50,
+  "product_name": "Livpure Allura Premia 7 Litre RO+UV+UF+Alk+Cu Water Purifier, 10 Stage Purification Technology",
+  "product_image": "https://www.reliancedigital.in/medias/Livpure-Allura-Premia-Water-Purifier-494404290-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNzM4MHxpbWFnZS9qcGVnfGltYWdlcy9oYjQvaDMzLzEwMTIzMDY1MzI3NjQ2LmpwZ3w0N2U0MTJmYWJkOGNhNjM3NTljMWNjOWI0OThkMWE2Y2RmZjJmYTk4MWI2ZGY3YWQwNGQyMWJkNWY4ZWZkYjZj",
+  "price": "19,990.00",
+  "stars": 4,
+  "offer": false,
+  "category":"ro"
+},
+{
+  "_id": 51,
+  "product_name": "Apple Watch Series 9 GPS + Cellular 45mm Midnight Aluminium Case with Midnight Sport Band - M/L",
+  "product_image": "https://www.reliancedigital.in/medias/Apple-Watch-Series9-494226875-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0MDY4NHxpbWFnZS9qcGVnfGltYWdlcy9oY2QvaDllLzEwMDUxMTU3NDU4OTc0LmpwZ3wzN2ZiNWQyZGVlZTYwZDhhMzQ5ZDM0ZDhlZTM5MDljMWRhNmYzY2ZmMjczMDQzNDlkNDg5NTgxMTEyZmU4NDQ2",
+  "price": "49,990.00",
+  "stars": 4,
+  "offer": false,
+  "category":"watch"
+},
+{
+  "_id": 52,
+  "product_name": "Apple Watch Series 9 GPS + Cellular 45mm Midnight Aluminium Case with Midnight Sport Band - M/L",
+  "product_image": "https://www.reliancedigital.in/medias/Apple-Watch-Series9-494226875-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0MDY4NHxpbWFnZS9qcGVnfGltYWdlcy9oY2QvaDllLzEwMDUxMTU3NDU4OTc0LmpwZ3wzN2ZiNWQyZGVlZTYwZDhhMzQ5ZDM0ZDhlZTM5MDljMWRhNmYzY2ZmMjczMDQzNDlkNDg5NTgxMTEyZmU4NDQ2",
+  "price": "49,990.00",
+  "stars": 4,
+  "offer": false,
+  "category":"watch"
+},
+{
+  "_id": 53,
+  "product_name": "Apple Watch Series 9 GPS + Cellular 45mm Midnight Aluminium Case with Midnight Sport Band - M/L",
+  "product_image": "https://www.reliancedigital.in/medias/Apple-Watch-Series9-494226875-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0MDY4NHxpbWFnZS9qcGVnfGltYWdlcy9oY2QvaDllLzEwMDUxMTU3NDU4OTc0LmpwZ3wzN2ZiNWQyZGVlZTYwZDhhMzQ5ZDM0ZDhlZTM5MDljMWRhNmYzY2ZmMjczMDQzNDlkNDg5NTgxMTEyZmU4NDQ2",
+  "price": "49,990.00",
+  "stars": 4,
+  "offer": false,
+  "category":"watch"
+},
+{
+  "_id": 54,
+  "product_name": "Apple Watch Series 9 GPS + Cellular 45mm Midnight Aluminium Case with Midnight Sport Band - M/L",
+  "product_image": "https://www.reliancedigital.in/medias/Apple-Watch-Series9-494226875-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0MDY4NHxpbWFnZS9qcGVnfGltYWdlcy9oY2QvaDllLzEwMDUxMTU3NDU4OTc0LmpwZ3wzN2ZiNWQyZGVlZTYwZDhhMzQ5ZDM0ZDhlZTM5MDljMWRhNmYzY2ZmMjczMDQzNDlkNDg5NTgxMTEyZmU4NDQ2",
+  "price": "49,990.00",
+  "stars": 4,
+  "offer": false,
+  "category":"watch"
+},
+{
+  "_id": 55,
+  "product_name": "Apple Watch Series 9 GPS + Cellular 45mm Midnight Aluminium Case with Midnight Sport Band - M/L",
+  "product_image": "https://www.reliancedigital.in/medias/Apple-Watch-Series9-494226875-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0MDY4NHxpbWFnZS9qcGVnfGltYWdlcy9oY2QvaDllLzEwMDUxMTU3NDU4OTc0LmpwZ3wzN2ZiNWQyZGVlZTYwZDhhMzQ5ZDM0ZDhlZTM5MDljMWRhNmYzY2ZmMjczMDQzNDlkNDg5NTgxMTEyZmU4NDQ2",
+  "price": "49,990.00",
+  "stars": 4,
+  "offer": false,
+  "category":"watch"
+},
+{
+  "_id": 56,
+  "product_name": "Apple Watch Series 9 GPS + Cellular 45mm Midnight Aluminium Case with Midnight Sport Band - M/L",
+  "product_image": "https://www.reliancedigital.in/medias/Apple-Watch-Series-9-494226872-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzODM0NnxpbWFnZS9qcGVnfGltYWdlcy9oNGEvaGYxLzEwMDUwODA1OTg5NDA2LmpwZ3xmZmE4MzQzOTg2NjYyODIyZTU3ZDZjYzg0YjI3OWU0NjZkNDkzMDI2OGE4YTA5ZTU2MjU2NWQ1ZmQ4NTUxYWUw",
+  "price": "49,990.00",
+  "stars": 4,
+  "offer": false,
+  "category":"watch"
+},
+{
+  "_id": 57,
+  "product_name": "Apple Watch Series 9 GPS + Cellular 45mm Midnight Aluminium Case with Midnight Sport Band - M/L",
+  "product_image": "https://www.reliancedigital.in/medias/Apple-Watch-Series-9-494226872-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzODM0NnxpbWFnZS9qcGVnfGltYWdlcy9oNGEvaGYxLzEwMDUwODA1OTg5NDA2LmpwZ3xmZmE4MzQzOTg2NjYyODIyZTU3ZDZjYzg0YjI3OWU0NjZkNDkzMDI2OGE4YTA5ZTU2MjU2NWQ1ZmQ4NTUxYWUw",
+  "price": "49,990.00",
+  "stars": 4,
+  "offer": false,
+  "category":"watch"
+},
+{
+  "_id": 58,
+  "product_name": "Apple Watch Series 9 GPS + Cellular 45mm Midnight Aluminium Case with Midnight Sport Band - M/L",
+  "product_image": "https://www.reliancedigital.in/medias/Apple-Watch-Series-9-494226872-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzODM0NnxpbWFnZS9qcGVnfGltYWdlcy9oNGEvaGYxLzEwMDUwODA1OTg5NDA2LmpwZ3xmZmE4MzQzOTg2NjYyODIyZTU3ZDZjYzg0YjI3OWU0NjZkNDkzMDI2OGE4YTA5ZTU2MjU2NWQ1ZmQ4NTUxYWUw",
+  "price": "49,990.00",
+  "stars": 4,
+  "offer": false,
+  "category":"watch"
+},
+{
+  "_id": 59,
+  "product_name": "Apple Watch Series 9 GPS + Cellular 45mm Midnight Aluminium Case with Midnight Sport Band - M/L",
+  "product_image": "https://www.reliancedigital.in/medias/Apple-Watch-Series-9-494226872-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzODM0NnxpbWFnZS9qcGVnfGltYWdlcy9oNGEvaGYxLzEwMDUwODA1OTg5NDA2LmpwZ3xmZmE4MzQzOTg2NjYyODIyZTU3ZDZjYzg0YjI3OWU0NjZkNDkzMDI2OGE4YTA5ZTU2MjU2NWQ1ZmQ4NTUxYWUw",
+  "price": "49,990.00",
+  "stars": 4,
+  "offer": false,
+  "category":"watch"
+},
+{
+  "_id": 60,
+  "product_name": "Apple Watch Series 9 GPS + Cellular 45mm Midnight Aluminium Case with Midnight Sport Band - M/L",
+  "product_image": "https://www.reliancedigital.in/medias/Apple-Watch-Series-9-494226872-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzODM0NnxpbWFnZS9qcGVnfGltYWdlcy9oNGEvaGYxLzEwMDUwODA1OTg5NDA2LmpwZ3xmZmE4MzQzOTg2NjYyODIyZTU3ZDZjYzg0YjI3OWU0NjZkNDkzMDI2OGE4YTA5ZTU2MjU2NWQ1ZmQ4NTUxYWUw",
+  "price": "49,990.00",
+  "stars": 4,
+  "offer": false,
+  "category":"watch"
+},
+{
+  "_id": 61,
+  "product_name": "SAMSUNG 1.5 Ton 3 Star  5 in1 Convertible Inverter Split AC",
+  "product_image": "https://www.reliancedigital.in/medias/Samsung-Convertible-5-in-1-Inverter-Split-AC-581110576-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w3MTE3fGltYWdlL2pwZWd8aW1hZ2VzL2gyZS9oNTYvMTAwOTg2MDc4NDk1MDIuanBnfDViYWJhOWQ1OGQwMDYzZDBkMGM3ZmZmZjI5ZjFkZjlkNzZhMTQ4Zjg1NmFhMGQ0OWVjZGRlY2VkM2IwZjk2NzI",
+  "price": "37,990.00",
+  "stars": 3,
+  "mrp": "60,990.00",
+  "disscount": "23,000",
+  "offer": true,
+  "category":"ac"
+},
+{
+  "_id": 62,
+  "product_name": "SAMSUNG 1.5 Ton 5 Star Wifi Inverter Split AC, AR18CY5AMWK",
+  "product_image": "https://www.reliancedigital.in/medias/Samsung-Convertible-5-in-1-Inverter-Split-AC-581110576-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w3MTE3fGltYWdlL2pwZWd8aW1hZ2VzL2gyZS9oNTYvMTAwOTg2MDc4NDk1MDIuanBnfDViYWJhOWQ1OGQwMDYzZDBkMGM3ZmZmZjI5ZjFkZjlkNzZhMTQ4Zjg1NmFhMGQ0OWVjZGRlY2VkM2IwZjk2NzI",
+  "stars": 5,
+  "price": "54,990.00",
+  "mrp": "58,990.00",
+  "disscount": "4990",
+  "offer": true,
+  "category":"ac"
+},
+{
+  "_id": 63,
+  "product_name": "Gangnam 1.5 Ton 3 Star Inverter Split AC, 5 in 1 Convertible, Hydrophilic Blue fin",
+  "product_image": "https://www.reliancedigital.in/medias/Gangnam-Inverter-Split-AC-581110668-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxNzcwMHxpbWFnZS9qcGVnfGltYWdlcy9oNjYvaDI4LzEwMTExNDczNjE0ODc4LmpwZ3wzZTA5YWVkZDYzMmYxNGFlOTdhZjQxNzU4MGU5MDJiZTJmYmI1MmRmYTg2MDFiNzU5NzY4NzY1NjFlOGQ4ODc5",
+  "price": "26,990.00",
+  "stars": 3,
+  "mrp": "44,999.00",
+  "disscount": "17,909",
+  "offer": true,
+  "category":"ac"
+},
+{
+  "_id": 64,
+  "product_name": "Hitachi 1.5 Ton 5 Star Inverter Split AC, G518PCBISF ,Frost Wash, Superfine Mesh Filter",
+  "product_image": "https://www.reliancedigital.in/medias/Hitachi-Split-AC-581110646-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMzU2NHxpbWFnZS9qcGVnfGltYWdlcy9oM2YvaDBiLzEwMTA2NzMxMDY5NDcwLmpwZ3w0M2Y4NTgwNGM5ZmI0ODdiZTYxZjZjYjU4MTVhYzc2YzQ0NTliM2MwYjkxZWE0ODBjMGM2MzE2Mjc1ZTcwZjQ2",
+  "stars": 4,
+  "price": "44,990.00",
+  "mrp": "74,100.00",
+  "disscount": "29,110",
+  "offer": true,
+  "category":"ac"
+},
+{
+  "_id": 65,
+  "product_name": "Hitachi 1.5 Ton 3 Star Inverter Split AC, G318PCBISF ,Frost Wash, Hexa Sensor",
+  "product_image": "https://www.reliancedigital.in/medias/Hitachi-Split-AC-581110651-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMzU2NHxpbWFnZS9qcGVnfGltYWdlcy9oNTUvaGYzLzEwMTA2NzM3OTUwNzUwLmpwZ3wzNDZjNGEyOThmZWM0NWVmOTE0MWVhNTI1YjhjOWIxZjhmNTg5MTQzZTY3NTdiZWFiYzg0Zjg1M2ZjMTU0NWM4",
+  "stars": 5,
+  "price": "13,990.00",
+  "mrp": "15,999.00",
+  "disscount": "1,509",
+  "offer": true,
+  "category":"ac"
+},
+{
+  "_id": 66,
+  "product_name": "BLUESTAR 1.5 Ton 3 Star 5 in 1 convertible Inverter Split AC -IC318MNU",
+  "product_image": "https://www.reliancedigital.in/medias/BLUESTAR-IC318MNU-Split-Air-conditioner-581110331-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxODkxOHxpbWFnZS9qcGVnfGltYWdlcy9oYTgvaGNmLzk5NjUzNTkwNzEyNjIuanBnfDAxNzkwMDUxMGQyYjUzYjkwNmZiMTcxYjA2ZGQwNmNkMzc0ZjU0NWE0YTU4ZWU1ZDJkNmJlZDNkZWE5NjU1Y2M",
+  "stars": 5,
+  "price": "130,990.00",
+  "mrp": "15,999.00",
+  "disscount": "1,509",
+  "offer": true,
+  "category":"ac"
+},
+{
+  "_id": 67,
+  "product_name": "Bluestar 1.5 Ton 5 Star 5 in 1 Convertible Inverter Split AC, IC518RNU",
+  "product_image": "https://www.reliancedigital.in/medias/Bluestar-IC518RNU-Air-Conditioner-581110409-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMzI2NnxpbWFnZS9qcGVnfGltYWdlcy9oMDMvaGM1Lzk5NjgzMjI2MDkxODIuanBnfGYyZDlhMzMyNTFlODg4NzBmYWU4NmQ3NTMzZWQ3N2ZiMmU3YWUxYTQ0MzAzZGU3MWQyMThjMDVjZTg0Y2Q0ZTk",
+  "stars": 5,
+  "price": "13,990.00",
+  "mrp": "15,999.00",
+  "disscount": "1,509",
+  "offer": true,
+  "category":"ac"
+},
+{
+  "_id": 68,
+  "product_name": "Bluestar 1.5 Ton 5 Star 5 in 1 Convertible Inverter Split AC, IC518RNU",
+  "product_image": "https://www.reliancedigital.in/medias/Bluestar-IC518RNU-Air-Conditioner-581110409-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMzI2NnxpbWFnZS9qcGVnfGltYWdlcy9oMDMvaGM1Lzk5NjgzMjI2MDkxODIuanBnfGYyZDlhMzMyNTFlODg4NzBmYWU4NmQ3NTMzZWQ3N2ZiMmU3YWUxYTQ0MzAzZGU3MWQyMThjMDVjZTg0Y2Q0ZTk",
+  "stars": 5,
+  "price": "13,990.00",
+  "mrp": "15,999.00",
+  "disscount": "1,509",
+  "offer": true,
+  "category":"ac"
+},
+{
+  "_id": 69,
+  "product_name": "Bluestar 1.5 Ton 5 Star 5 in 1 Convertible Inverter Split AC, IC518RNU",
+  "product_image": "https://www.reliancedigital.in/medias/Bluestar-IC518RNU-Air-Conditioner-581110409-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMzI2NnxpbWFnZS9qcGVnfGltYWdlcy9oMDMvaGM1Lzk5NjgzMjI2MDkxODIuanBnfGYyZDlhMzMyNTFlODg4NzBmYWU4NmQ3NTMzZWQ3N2ZiMmU3YWUxYTQ0MzAzZGU3MWQyMThjMDVjZTg0Y2Q0ZTk",
+  "stars": 5,
+  "price": "13,990.00",
+  "mrp": "15,999.00",
+  "disscount": "1,509",
+  "offer": true,
+  "category":"ac"
+},
+{
+  "_id": 70,
+  "product_name": "Bluestar 1.5 Ton 5 Star 5 in 1 Convertible Inverter Split AC, IC518RNU",
+  "product_image": "https://www.reliancedigital.in/medias/Bluestar-IC518RNU-Air-Conditioner-581110409-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMzI2NnxpbWFnZS9qcGVnfGltYWdlcy9oMDMvaGM1Lzk5NjgzMjI2MDkxODIuanBnfGYyZDlhMzMyNTFlODg4NzBmYWU4NmQ3NTMzZWQ3N2ZiMmU3YWUxYTQ0MzAzZGU3MWQyMThjMDVjZTg0Y2Q0ZTk",
+  "stars": 5,
+  "price": "13,990.00",
+  "mrp": "15,999.00",
+  "disscount": "1,509",
+  "offer": true,
+  "category":"ac"
+}
+
+]
