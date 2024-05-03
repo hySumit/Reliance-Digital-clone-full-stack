@@ -9,7 +9,7 @@ const productSchema = new Schema({
   disscount: { type: String },
   offer: { type: Boolean, required: true },
   category: { type: String, required: true },
-});
+},{versionKey:false});
 
 const product_model = model("products",productSchema)
 
