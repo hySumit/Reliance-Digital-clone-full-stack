@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const auth = require('../middleware/auth.middleware'); // Assuming authMiddleware is in the same directory
 
-const  cartModel  = require('../model/cart.model'); // Assuming your models are in the same directory
+const  cartModel  = require('../model/cart.model'); // Assuming models are in the same directory
 
 // Add item to cart
 router.post('/add', auth, async (req, res) => {

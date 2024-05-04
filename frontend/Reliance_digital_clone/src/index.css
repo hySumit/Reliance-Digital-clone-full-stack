@@ -2,3 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+#root{
+    background-color: #dadada;
+}
+
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    transition: transform 0.5s ease;
+}
+
+.slide.active {
+    display: block;
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+
+
+.up>div{
+    /* line-height: 5px; */
+}
