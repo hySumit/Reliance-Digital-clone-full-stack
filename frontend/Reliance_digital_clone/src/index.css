@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #root{
     background-color: #dadada;
 }
@@ -39,8 +44,65 @@
     right: 10px;
 }
 
+.disclaimer{
+    line-height: 2rem;
+}
 
 
-.up>div{
-    /* line-height: 5px; */
+.up{
+    line-height: 2.3rem;
+}
+
+.square{
+    border: 0.5px solid rgba(161, 161, 161, 0.199);
+}
+
+.input {
+    position: relative;
+    width: 80%;
+    margin: 10px;
+}
+
+.input > input {
+    border: 1px solid #d1d1d1;
+    width: 300px;
+    height: 6vh;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.labelline {
+    position: absolute;
+    left: 10px;
+    bottom: 70%;
+    font-size: 14px;
+    transform: translateY(50%);
+    color: #888;
+    transition: all 0.1s ease-in-out;
+    pointer-events: none;
+}
+
+.input > input:focus + .labelline,
+.input > input:valid + .labelline {
+    transform: translateY(-10%);
+    font-size: 0.8em;
+    color: blue;
+    z-index: 1111;
+    background: white;
+}
+.input > input:focus,
+.input > input:valid {
+    color: blue;
+    border: 2px solid blue;
+}
+
+.form{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 45vh;
+    padding: 20px;
+    margin: 20px;
+}
+.register{
+    height: 60vh;
 }
