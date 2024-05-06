@@ -38,7 +38,10 @@ export const SingleProductpage = () => {
   const handleAddToCart = () => {
     // Assuming you have access to the productData state here
     const product = {
-      productId: productData.productId,
+      productId: queryParams.get("productId"), // Include productId from query params
+      productName: productData.product_name,
+      productImage: productData.product_image,
+      price: productData.price,
       // Add other necessary product details
     };
 
@@ -60,6 +63,7 @@ export const SingleProductpage = () => {
         console.error(error);
       });
   };
+
 
   return (
     <div>

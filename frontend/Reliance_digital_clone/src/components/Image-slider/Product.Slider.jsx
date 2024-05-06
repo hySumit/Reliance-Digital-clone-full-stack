@@ -18,6 +18,7 @@ export const ProductSlider = ({ url, heading }) => {
           },
         });
         setProducts(resp.data.products.slice(0, 10));
+        console.log(resp.data.products);
       } catch (error) {
         console.log("Error Fetching data", error);
       }
@@ -106,7 +107,7 @@ export const ProductSlider = ({ url, heading }) => {
             {products.map((product, index) => (
               <Link
                 key={index}
-                to={`/product?productId=${product.productId}&productName=${product.product_name}&productImage=${product.product_image}&price=${product.price}&stars=${product.stars}`}
+                to={`/product?productId=${product._id}&productName=${product.product_name}&productImage=${product.product_image}&price=${product.price}&stars=${product.stars}`}
               >
                 <div className="p-5">
                   <img
