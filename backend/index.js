@@ -6,10 +6,13 @@ const userRouter = require('./src/routes/user.route')
 const product_router = require('./src/routes/products.route')
 const router = require('./src/routes/cart.route')
 const app = express()
+const cors = require('cors')
+
 app.use(express.json())
 app.use("/user",userRouter)
 app.use("/products",product_router)
 app.use("/cart",router)
+app.use(cors())
 
 app.get('/',(req,res)=>{
     res.send("Hello World!")

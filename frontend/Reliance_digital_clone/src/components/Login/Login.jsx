@@ -13,30 +13,33 @@ export const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://reliance-digital-clone-full-stack.onrender.com/user/login', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          email,
-          password
-        })
-      });
+      const response = await fetch(
+        "https://reliance-digital-clone-full-stack.onrender.com/user/login",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            email,
+            password,
+          }),
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error("Failed to login");
+      }
 
       const data = await response.json();
-setIsAuth(true);
-
-// Save access token and user ID in localStorage
-localStorage.setItem("accessKey", data.accessToken);
-localStorage.setItem("userID", data.userID);
-
-
-      alert('Login successful');
+      // Save access key in localStorage upon successful login
+      localStorage.setItem("accessKey", data.accessKey);
+      setIsAuth(true);
+      alert("Login successful");
       navigate("/");
     } catch (error) {
-      console.error('Error logging in:', error);
-      // Handle error, show error message to user, etc.
+      console.error(error);
+      alert("Error logging in");
     }
   };
 
