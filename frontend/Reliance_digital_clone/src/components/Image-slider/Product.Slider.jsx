@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export const ProductSlider = ({ url, heading }) => {
   const [products, setProducts] = useState([]);
-  const sliderRef = useRef(null); // Ref for the Slider component
+  const sliderRef = useRef(null); 
 
   useEffect(() => {
     const fetchData = async () => {
@@ -26,7 +26,7 @@ export const ProductSlider = ({ url, heading }) => {
     fetchData();
   }, []);
 
-  // Custom arrow components
+  
   const NextArrow = ({ onClick }) => (
     <button className="slick-next" onClick={onClick}>
       <GrNext />
@@ -39,7 +39,7 @@ export const ProductSlider = ({ url, heading }) => {
     </button>
   );
 
-  // Slider settings
+  
   const settings = {
     dots: false,
     infinite: true,
@@ -77,14 +77,14 @@ export const ProductSlider = ({ url, heading }) => {
   };
 
   const handlePrev = () => {
-    sliderRef.current.slickPrev(); // Go to previous slide
+    sliderRef.current.slickPrev(); 
   };
 
   const handleNext = () => {
-    sliderRef.current.slickNext(); // Go to next slide
+    sliderRef.current.slickNext(); 
   };
 
-  // Function to render stars
+  
   const renderStars = (stars) => {
     const starIcons = [];
     for (let i = 0; i < stars; i++) {

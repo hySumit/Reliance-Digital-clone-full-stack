@@ -19,13 +19,13 @@ export const SingleProductpage = () => {
   };
 
   useEffect(() => {
-    // Extract product data from query parameters
+    
     const productName = queryParams.get("productName");
     const productImage = queryParams.get("productImage");
     const price = queryParams.get("price");
     const stars = queryParams.get("stars");
   
-    // Set product data
+    
     setProductData({
       product_name: productName,
       product_image: productImage,
@@ -36,28 +36,27 @@ export const SingleProductpage = () => {
   
 
   const handleAddToCart = () => {
-    // Assuming you have access to the productData state here
+    
     const product = {
-      productId: queryParams.get("productId"), // Include productId from query params
+      productId: queryParams.get("productId"), 
       productName: productData.product_name,
       productImage: productData.product_image,
       price: productData.price,
-      // Add other necessary product details
+
     };
 
     fetch("https://reliance-digital-clone-full-stack.onrender.com/cart/add/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        // Assuming you have an access token stored in localStorage
-        Authorization: `Bearer ${localStorage.getItem("accessKey")}`,
+                Authorization: `Bearer ${localStorage.getItem("accessKey")}`,
       },
       body: JSON.stringify(product),
     })
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
-        // Handle success or error response from the backend
+        
       })
       .catch((error) => {
         console.error(error);

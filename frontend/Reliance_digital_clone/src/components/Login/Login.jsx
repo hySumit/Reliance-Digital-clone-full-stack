@@ -32,7 +32,7 @@ export const Login = () => {
       }
 
       const data = await response.json();
-      // Save access key in localStorage upon successful login
+      
       localStorage.setItem("accessKey", data.accessToken);
       setIsAuth(true);
       alert("Login successful");

@@ -7,7 +7,7 @@ import { AiFillStar } from "react-icons/ai";
 
 export const PhoneSlider = ({ url, heading }) => {
   const [products, setProducts] = useState([]);
-  const sliderRef = useRef(null); // Ref for the Slider component
+  const sliderRef = useRef(null); 
 
   useEffect(() => {
     const fetchData = async () => {
@@ -25,7 +25,7 @@ export const PhoneSlider = ({ url, heading }) => {
     fetchData();
   }, []);
 
-  // Custom arrow components
+  
   const NextArrow = ({ onClick }) => (
     <button className="slick-next" onClick={onClick}>
       <GrNext />
@@ -38,7 +38,7 @@ export const PhoneSlider = ({ url, heading }) => {
     </button>
   );
 
-  // Slider settings
+  
   const settings = {
     dots: false,
     infinite: true,
@@ -76,11 +76,11 @@ export const PhoneSlider = ({ url, heading }) => {
   };
 
   const handlePrev = () => {
-    sliderRef.current.slickPrev(); // Go to previous slide
+    sliderRef.current.slickPrev(); 
   };
 
   const handleNext = () => {
-    sliderRef.current.slickNext(); // Go to next slide
+    sliderRef.current.slickNext(); 
   };
   const renderStars = (stars) => {
     const starIcons = [];
