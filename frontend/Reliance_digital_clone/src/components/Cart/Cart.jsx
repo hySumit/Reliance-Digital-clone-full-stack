@@ -39,7 +39,7 @@ export const Cart = () => {
       }
 
       const cartData = await response.json();
-      setCartItems(cartData.items);
+      setCartItems(cartData.items); // Accessing items property from cartData
     } catch (error) {
       console.error('Error fetching cart data:', error);
     }
@@ -63,9 +63,9 @@ export const Cart = () => {
             {/* Iterate over cartItems and display each item */}
             {cartItems.map((item) => (
               <div key={item.product._id} className="cart-item">
-                <img src={item.product.image} alt={item.product.name} />
+                <img src={item.product.product_image} alt={item.product.product_name} />
                 <div>
-                  <h3>{item.product.name}</h3>
+                  <h3>{item.product.product_name}</h3>
                   <p>Quantity: {item.quantity}</p>
                   <p>Price: ₹{item.product.price}</p>
                   {/* Add any other details you want to display */}

@@ -2,34 +2,17 @@ const express = require('express');
 const router = express.Router();
 const auth = require('../middleware/auth.middleware'); // Assuming authMiddleware is in the same directory
 
-const  cartModel  = require('../model/cart.model'); // Assuming models are in the same directory
+const  cartModel  = require('../model/cart.model'); // Assum
 
-// Add item to cart
+
 router.post('/add', auth, async (req, res) => {
     try {
         const { product_id, quantity } = req.body;
-        const userId = req.body.userID; // Assuming userID is decoded from the token by the auth middleware
+        const userId = req.body.userID;
         
-        // Fetch product details
-        const product = await ProductModel.findById(product_id).select('name price image');
-
-        if (!product) {
-            return res.status(404).json({ message: "Product not found" });
-        }
-
         const cart = await cartModel.findOneAndUpdate(
             { user: userId },
-            { 
-                $addToSet: { 
-                    items: { 
-                        product: product_id, 
-                        quantity: quantity,
-                        name: product.name,
-                        price: product.price,
-                        image: product.image
-                    } 
-                } 
-            },
+            { $addToSet: { items: { product: product_id, quantity: quantity } } },
             { upsert: true, new: true }
         );
 
@@ -40,13 +23,10 @@ router.post('/add', auth, async (req, res) => {
     }
 });
 
-// Remove item from cart
 router.post('/remove', auth, async (req, res) => {
     try {
         const { product_id } = req.body;
-        const userId = req.body.userID; // Assuming userID is decoded from the token by the auth middleware
-        
-        // Add validation for product_id
+        const userId = req.body.userID;
         
         const cart = await cartModel.findOneAndUpdate(
             { user: userId },
@@ -61,15 +41,14 @@ router.post('/remove', auth, async (req, res) => {
     }
 });
 
-// Get user's cart
-// Get user's cart with product details
 router.get('/', auth, async (req, res) => {
     try {
-        const userId = req.body.userID; // Assuming userID is decoded from the token by the auth middleware
+        const userId = req.body.userID;
 
         const cart = await cartModel.findOne({ user: userId }).populate({
             path: 'items.product',
-            select: 'name price image offers', // Select the fields you want to populate
+            model: 'products',
+            select: 'product_name product_image price'
         });
 
         if (!cart) {
@@ -82,6 +61,5 @@ router.get('/', auth, async (req, res) => {
         res.status(500).json({ message: "Internal Server Error" });
     }
 });
-
 
 module.exports = router;
