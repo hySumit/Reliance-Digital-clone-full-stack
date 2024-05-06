@@ -24,7 +24,7 @@ export const Cart = () => {
       const response = await fetch(`https://reliance-digital-clone-full-stack.onrender.com/cart/${userID}`, {
         method: 'GET',
         headers: {
-          Authorization: `Bearer ${localStorage.getItem('accessToken')}`,
+          Authorization: `Bearer ${localStorage.getItem('accessKey')}`,
         },
       });
 

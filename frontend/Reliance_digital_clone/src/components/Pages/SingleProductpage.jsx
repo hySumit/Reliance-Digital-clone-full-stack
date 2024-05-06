@@ -2,8 +2,12 @@ import React, { useEffect, useState } from "react";
 import { Navbar_top } from "../Navbar/Navbar_top";
 import { FaTag } from "react-icons/fa6";
 import { AiFillStar } from "react-icons/ai";
+import { useLocation } from "react-router-dom";
 
 export const SingleProductpage = () => {
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+
   const [productData, setProductData] = useState(null);
 
   const renderStars = (stars) => {
@@ -15,45 +19,42 @@ export const SingleProductpage = () => {
   };
 
   useEffect(() => {
-    // Retrieve data from local storage
-    const storedProductData = localStorage.getItem("selectedProduct");
-    if (storedProductData) {
-      setProductData(JSON.parse(storedProductData));
-    }
-
-    // Clear local storage when leaving the page
-    return () => {
-      localStorage.removeItem("selectedProduct");
-    };
-  }, []); // Empty dependency array ensures this effect runs only once on mount
+    // Extract product data from query parameters
+    const productName = queryParams.get("productName");
+    const productImage = queryParams.get("productImage");
+    const price = queryParams.get("price");
+    const stars = queryParams.get("stars");
+  
+    // Set product data
+    setProductData({
+      product_name: productName,
+      product_image: productImage,
+      price: price,
+      stars: stars,
+    });
+  }, [location.search]);
+  
 
   const handleAddToCart = () => {
-    // Retrieve access key from localStorage
-    const accessKey = localStorage.getItem("accessKey");
-    // Check if access key exists
-    if (!accessKey) {
-      console.error("Access key not found");
-      return;
-    }
-    // Assuming you have product data available
+    // Assuming you have access to the productData state here
     const product = {
       productId: productData.productId,
-      // Other product details
+      // Add other necessary product details
     };
 
-    // Example of how to send product data to the backend with the access key
     fetch("https://reliance-digital-clone-full-stack.onrender.com/cart/add/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${accessKey}`,
+        // Assuming you have an access token stored in localStorage
+        Authorization: `Bearer ${localStorage.getItem("accessKey")}`,
       },
       body: JSON.stringify(product),
     })
       .then((response) => response.json())
       .then((data) => {
-        // Handle success or error response from the backend
         console.log(data);
+        // Handle success or error response from the backend
       })
       .catch((error) => {
         console.error(error);

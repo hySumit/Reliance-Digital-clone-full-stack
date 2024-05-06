@@ -1,6 +1,7 @@
 const { Schema, model } = require("mongoose");
 
 const productSchema = new Schema({
+  productId: { type: String, required: true, unique: true }, // Add productId field
   product_name: { type: String, required: true },
   product_image: { type: String, required: true },
   price: { type: String, required: true },
@@ -9,7 +10,7 @@ const productSchema = new Schema({
   disscount: { type: String },
   offer: { type: Boolean, required: true },
   category: { type: String, required: true },
-},{versionKey:false});
+}, { versionKey: false });
 
 const product_model = model("products",productSchema)
 

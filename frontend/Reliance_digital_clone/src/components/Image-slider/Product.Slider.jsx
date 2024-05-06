@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import Slider from "react-slick";
-import { GrNext } from "react-icons/gr";
-import { GrPrevious } from "react-icons/gr";
+import { GrNext, GrPrevious } from "react-icons/gr";
 import { AiFillStar } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
@@ -18,7 +17,7 @@ export const ProductSlider = ({ url, heading }) => {
             "Content-Type": "application/json",
           },
         });
-        setProducts(resp.data.products.slice(0,10));
+        setProducts(resp.data.products.slice(0, 10));
       } catch (error) {
         console.log("Error Fetching data", error);
       }
@@ -84,10 +83,7 @@ export const ProductSlider = ({ url, heading }) => {
     sliderRef.current.slickNext(); // Go to next slide
   };
 
-  const handleProductClick = (product) => {
-    localStorage.setItem('selectedProduct', JSON.stringify(product));
-  };
-
+  // Function to render stars
   const renderStars = (stars) => {
     const starIcons = [];
     for (let i = 0; i < stars; i++) {
@@ -110,8 +106,7 @@ export const ProductSlider = ({ url, heading }) => {
             {products.map((product, index) => (
               <Link
                 key={index}
-                to={"/product"}
-                onClick={() => handleProductClick(product)}
+                to={`/product?productId=${product.productId}&productName=${product.product_name}&productImage=${product.product_image}&price=${product.price}&stars=${product.stars}`}
               >
                 <div className="p-5">
                   <img
@@ -123,9 +118,10 @@ export const ProductSlider = ({ url, heading }) => {
                   <p>{product.product_name}</p>
                   <p>
                     Offer Price :{" "}
-                    <span className="text-black font-bold">₹{product.price}</span>
+                    <span className="text-black font-bold">
+                      ₹{product.price}
+                    </span>
                   </p>
-
                   <p className="flex items-center">
                     Rating: {renderStars(product.stars)}
                   </p>
@@ -134,7 +130,7 @@ export const ProductSlider = ({ url, heading }) => {
                     {product.offer ? (
                       <p className="text-green-500">Available</p>
                     ) : (
-                      <p className="text-red-500">Unvailable</p>
+                      <p className="text-red-500">Unavailable</p>
                     )}
                   </div>
                 </div>
