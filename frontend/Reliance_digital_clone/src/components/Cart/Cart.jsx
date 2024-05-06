@@ -5,45 +5,50 @@ import { AuthContext } from '../AuthContext/AuthContext';
 import { useNavigate } from 'react-router-dom';
 
 export const Cart = () => {
-  const { isAuth } = useContext(AuthContext);
+  const { isAuth, accessKey } = useContext(AuthContext); // Assuming accessKey is available from AuthContext
   const navigate = useNavigate();
   const [cartItems, setCartItems] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    if (!isAuth) {
-      navigate('/login');
-    } else {
-      // Fetch cart data
-      fetchCartData();
-    }
-  }, [isAuth, navigate]);
+    const fetchCartData = async () => {
+      try {
+        if (!isAuth) {
+          navigate('/login');
+          return;
+        }
 
-  const fetchCartData = async () => {
-    try {
-      const accessKey = localStorage.getItem('accessKey');
-      if (!accessKey) {
-        console.error('Access key not found');
-        return;
+        const response = await fetch('https://reliance-digital-clone-full-stack.onrender.com/cart/', {
+          method: 'GET',
+          headers: {
+            authorization: `Bearer ${accessKey}`,
+          },
+        });
+
+        if (!response.ok) {
+          throw new Error('Failed to fetch cart data');
+        }
+
+        const cartData = await response.json();
+        setCartItems(cartData.items);
+      } catch (error) {
+        setError(error.message);
+      } finally {
+        setIsLoading(false);
       }
+    };
 
-      const response = await fetch('https://reliance-digital-clone-full-stack.onrender.com/cart/', {
-        method: 'GET',
-        headers: {
-          Authorization: `Bearer ${accessKey}`,
-        },
-      });
+    fetchCartData();
+  }, [isAuth, navigate, accessKey]);
 
-      if (!response.ok) {
-        console.error('Failed to fetch cart data');
-        return;
-      }
+  if (isLoading) {
+    return <div>Loading...</div>; // You can replace this with a loading spinner component
+  }
 
-      const cartData = await response.json();
-      setCartItems(cartData.items); // Accessing items property from cartData
-    } catch (error) {
-      console.error('Error fetching cart data:', error);
-    }
-  };
+  if (error) {
+    return <div>Error: {error}</div>; // Display error message
+  }
 
   return (
     <div className="main bg-white">
@@ -52,7 +57,7 @@ export const Cart = () => {
         {cartItems.length === 0 ? (
           <div>
             <div className="img flex justify-center">
-              <img src="https://www.reliancedigital.in/build/client/images/emptycart.png" alt="" />
+              <img src="https://www.reliancedigital.in/build/client/images/emptycart.png" alt="Empty Cart" />
             </div>
             <div className="text">
               <p className="#494A4A text-[20px]">Your Shopping Cart is Empty</p>
@@ -60,7 +65,6 @@ export const Cart = () => {
           </div>
         ) : (
           <div>
-            {/* Iterate over cartItems and display each item */}
             {cartItems.map((item) => (
               <div key={item.product._id} className="cart-item">
                 <img src={item.product.product_image} alt={item.product.product_name} />
