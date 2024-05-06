@@ -106,3 +106,20 @@
 .register{
     height: 60vh;
 }
+
+.product_box{
+    
+    border: 1px solid #8888883b;
+}
+.product_box>div>img{
+    position: relative;
+    left: 100px;
+}
+
+.product_details1{
+    width: 50%;
+}
+.product_details2>.box>div{
+    padding: 10px;
+    border-bottom: 10px solid #a3a3a33f;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar_top } from "../Navbar/Navbar_top";
 import { Dropdown } from "../Navbar/Dropdown";
 import Slider from "../Image-slider/Slider";
+// import  Cards  from "./Cards";
 import { Cards } from "./Cards";
 import { ProductSlider } from "../Image-slider/Product.Slider";
 import { PhoneSlider } from "../Image-slider/Phone.slider";

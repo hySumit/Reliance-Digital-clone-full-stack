@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import { GrNext } from "react-icons/gr";
 import { GrPrevious } from "react-icons/gr";
 import { AiFillStar } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 export const ProductSlider = ({ url, heading }) => {
   const [products, setProducts] = useState([]);
@@ -82,6 +83,11 @@ export const ProductSlider = ({ url, heading }) => {
   const handleNext = () => {
     sliderRef.current.slickNext(); // Go to next slide
   };
+
+  const handleProductClick = (product) => {
+    localStorage.setItem('selectedProduct', JSON.stringify(product));
+  };
+
   const renderStars = (stars) => {
     const starIcons = [];
     for (let i = 0; i < stars; i++) {
@@ -102,33 +108,37 @@ export const ProductSlider = ({ url, heading }) => {
         <div className="slider-container overflow-hidden">
           <Slider {...settings} ref={sliderRef}>
             {products.map((product, index) => (
-              <div key={index} className="p-5">
-                <img
-                  className="hover:scale-105 transition-transform duration-300 ease-in-out"
-                  width={"200px"}
-                  src={product.product_image}
-                  alt=""
-                />
-                <p>{product.product_name}</p>
-                <p>
-                  {" "}
-                  Offer Price :{" "}
-                  <span className="text-black font-bold">₹{product.price}</span>
-                </p>
+              <Link
+                key={index}
+                to={"/product"}
+                onClick={() => handleProductClick(product)}
+              >
+                <div className="p-5">
+                  <img
+                    className="hover:scale-105 transition-transform duration-300 ease-in-out"
+                    width={"200px"}
+                    src={product.product_image}
+                    alt=""
+                  />
+                  <p>{product.product_name}</p>
+                  <p>
+                    Offer Price :{" "}
+                    <span className="text-black font-bold">₹{product.price}</span>
+                  </p>
 
-                <p className="flex items-center">
-                  Rating: {renderStars(product.stars)}
-                </p>
-                <div className="flex gap-2">
-                  {" "}
-                  <p>Offer</p>
-                  {product.offer ? (
-                    <p className="text-green-500">Available</p>
-                  ) : (
-                    <p className="text-red-500">Unvailable</p>
-                  )}
+                  <p className="flex items-center">
+                    Rating: {renderStars(product.stars)}
+                  </p>
+                  <div className="flex gap-2">
+                    <p>Offer</p>
+                    {product.offer ? (
+                      <p className="text-green-500">Available</p>
+                    ) : (
+                      <p className="text-red-500">Unvailable</p>
+                    )}
+                  </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </Slider>
         </div>

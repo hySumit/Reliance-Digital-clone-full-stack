@@ -1,15 +1,20 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Navbar_top } from "../Navbar/Navbar_top";
 import { Footer } from "../Footer/Footer";
 import axios from "axios";
-import { Link, useNavigate } from "react-router-dom";
-
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import {AuthContext} from "../AuthContext/AuthContext"
 export const Login = () => {
 
+  const navigate = useNavigate();
   const [email,setEmail] = useState('')
   const [password,setPassword] = useState('')
-
+  const {setIsAuth} = useContext(AuthContext)
+  const { setAccessKey } = useContext(AuthContext);
+  
   const handleSubmit = async (e)=>{
+    e.preventDefault();
     const response  = await fetch('https://reliance-digital-clone-full-stack.onrender.com/user/login',{
       method:'POST',
       headers:{
@@ -20,11 +25,13 @@ export const Login = () => {
         password
       })
     })
-
+  
     const data = await response.json()
+    setIsAuth(true)
+    localStorage.setItem("accessKey", data.accessToken);
     console.log(data);
     alert('login done')
-    useNavigate("/")
+    navigate("/");
   }
 
   return (
