@@ -6,19 +6,18 @@ import { AiFillStar } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 export const ProductSlider = ({ url, heading }) => {
+  console.log(url, "log onn line 9  ");
+  
   const [products, setProducts] = useState([]);
   const sliderRef = useRef(null); 
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const resp = await axios.get(url, {
-          headers: {
-            "Content-Type": "application/json",
-          },
-        });
+        const resp = await axios.get(url);
+        console.log(resp, "lione no 18 ")
         setProducts(resp.data.products.slice(0, 10));
-        console.log(resp.data.products);
+        console.log(resp.data.products, "log on line 32");
       } catch (error) {
         console.log("Error Fetching data", error);
       }
