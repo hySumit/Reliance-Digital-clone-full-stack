@@ -8,8 +8,8 @@ export const Cards = ({ val, images }) => {
       </div>
 
       <div className="container-card flex gap-10 px-5">
-        {images.map((el) => (
-          <div key={el} className="hover:scale-105 transition-transform duration-300 ease-in-out">
+        {images.map((el, index) => (
+          <div key={`${el}-${index}`} className="hover:scale-105 transition-transform duration-300 ease-in-out">
             <img src={el} alt="" />
           </div>
         ))}
