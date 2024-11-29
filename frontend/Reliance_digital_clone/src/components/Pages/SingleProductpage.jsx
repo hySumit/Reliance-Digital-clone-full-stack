@@ -3,6 +3,7 @@ import { Navbar_top } from "../Navbar/Navbar_top";
 import { FaTag } from "react-icons/fa6";
 import { AiFillStar } from "react-icons/ai";
 import { useLocation } from "react-router-dom";
+import Cookies from "js-cookie"; 
 
 export const SingleProductpage = () => {
   const location = useLocation();
@@ -19,13 +20,30 @@ export const SingleProductpage = () => {
   };
 
   useEffect(() => {
-    
     const productName = queryParams.get("productName");
     const productImage = queryParams.get("productImage");
     const price = queryParams.get("price");
     const stars = queryParams.get("stars");
-  
-    
+
+    const visitedProduct = {
+      productId: queryParams.get("productId"),
+      productName: productName,
+      productImage: productImage,
+      price: price,
+      stars: stars,
+    };
+
+    // i am storing the visited products over here
+    const existingVisitedProducts = Cookies.get("visitedProducts")
+      ? JSON.parse(Cookies.get("visitedProducts"))
+      : [];
+
+    // now here i am checking for duplicates product
+    const updatedVisitedProducts = [...existingVisitedProducts, visitedProduct];
+    Cookies.set("visitedProducts", JSON.stringify(updatedVisitedProducts), {
+      expires: 7, 
+    });
+
     setProductData({
       product_name: productName,
       product_image: productImage,
@@ -33,36 +51,31 @@ export const SingleProductpage = () => {
       stars: stars,
     });
   }, [location.search]);
-  
 
   const handleAddToCart = () => {
-    
     const product = {
-      productId: queryParams.get("productId"), 
+      productId: queryParams.get("productId"),
       productName: productData.product_name,
       productImage: productData.product_image,
       price: productData.price,
-
     };
 
     fetch("https://reliance-digital-clone-full-stack.onrender.com/cart/add/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-                Authorization: `Bearer ${localStorage.getItem("accessKey")}`,
+        Authorization: `Bearer ${localStorage.getItem("accessKey")}`,
       },
       body: JSON.stringify(product),
     })
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
-        
       })
       .catch((error) => {
         console.error(error);
       });
   };
-
 
   return (
     <div>
