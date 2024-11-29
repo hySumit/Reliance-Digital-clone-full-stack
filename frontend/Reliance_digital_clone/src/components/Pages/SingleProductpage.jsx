@@ -41,7 +41,9 @@ export const SingleProductpage = () => {
     // now here i am checking for duplicates product
     const updatedVisitedProducts = [...existingVisitedProducts, visitedProduct];
     Cookies.set("visitedProducts", JSON.stringify(updatedVisitedProducts), {
-      expires: 7, 
+      expires: 7,
+      secure: true,
+      sameSite:"None"
     });
 
     setProductData({
