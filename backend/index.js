@@ -1,42 +1,47 @@
-const express = require('express');
-require('dotenv').config();
-const PORT = process.env.PORT || 8080;
-const database = require('./src/config/db');
-const userRouter = require('./src/routes/user.route');
-const product_router = require('./src/routes/products.route');
-const cartRouter = require('./src/routes/cart.route');
-const cors = require('cors');
+const express = require('express')
+require('dotenv').config()
+const PORT = process.env.PORT || 8080
+const database = require('./src/config/db')
+const userRouter = require('./src/routes/user.route')
+const product_router = require('./src/routes/products.route')
+const router = require('./src/routes/cart.route')
+const app = express()
+const cors = require('cors')
 
-const app = express();
-
-const allowedOrigins = ["https://reliance-digital-clone-full-stack.vercel.app/", "https://reliance-digital-clone-full-stack.onrender.com/products/monitor","https://reliance-digital-clone-full-stack.onrender.com/products/cooler","https://reliance-digital-clone-full-stack.onrender.com/products/ac","https://reliance-digital-clone-full-stack.onrender.com/products/phones","https://reliance-digital-clone-full-stack.onrender.com/products/watch","https://reliance-digital-clone-full-stack.onrender.com/products/ro", "*"]; 
-
+app.use(express.json())
+app.use("/user",userRouter)
+app.use("/products",product_router)
+app.use("/cart",router)
+// app.use(cors())
+// dot dot dot
+const allowedOrigins= ["http://localhost:5174","https://reliance-digital-clone-full-stack-api.onrender.com","https://reliance-digital-clone-full-stack.vercel.app/"]
 app.use(cors({
-    origin: function (origin, callback) {
-        if (!origin || allowedOrigins.includes(origin)) {
-            callback(null, true);
-        } else {
+    origin:(origin,callback)=>{
+        console.log("Origin is", origin);
+        if(allowedOrigins.indexOf(origin)!==-1||!origin){
+            console.log("Origin allowed");
+            callback(null,true)
+        }
+        else{
             callback(new Error("Not allowed by CORS"));
         }
     },
-    methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
-    credentials: true, 
+    credentials:true
 }));
 
-app.use(express.json());
-app.use("/user", userRouter);
-app.use("/products", product_router);
-app.use("/cart", cartRouter);
+// dot dot dot/
 
-app.get('/', (req, res) => {
-    res.send("Hello World!");
-});
+app.get('/',(req,res)=>{
+    res.send("Hello World!")
+})
 
-app.listen(PORT, () => {
+
+app.listen(PORT,()=>{ 
     try {
-        database(); 
-        console.log(`Server is running on PORT: ${PORT}`);
+        database()
+        console.log(`Server is running on PORT :${PORT}`);
     } catch (error) {
-        console.log("Error starting server:", error);
+        console.log(error);
     }
-});
+})   
+
