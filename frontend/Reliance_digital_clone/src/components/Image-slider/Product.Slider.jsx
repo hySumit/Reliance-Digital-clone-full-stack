@@ -6,26 +6,21 @@ import { AiFillStar } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 export const ProductSlider = ({ url, heading }) => {
-  console.log(url, "log onn line 9  ");
-  
   const [products, setProducts] = useState([]);
-  const sliderRef = useRef(null); 
+  const sliderRef = useRef(null);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const resp = await axios.get(url,{withCredentials:true});
-        // console.log(resp, "lione no 18 ")
+        const resp = await axios.get(url, { withCredentials: true });
         setProducts(resp.data.products.slice(0, 10));
-        console.log(resp.data.products, "log on line 32");
       } catch (error) {
-        console.log("Error Fetching data", error);
+        console.error("Error Fetching data:", error.message);
       }
     };
     fetchData();
-  }, []);
+  }, [url]); // Ensure `url` is included in the dependency array
 
-  
   const NextArrow = ({ onClick }) => (
     <button className="slick-next" onClick={onClick}>
       <GrNext />
@@ -38,89 +33,50 @@ export const ProductSlider = ({ url, heading }) => {
     </button>
   );
 
-  
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
-    initialSlide: 0,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: false,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
+      { breakpoint: 1024, settings: { slidesToShow: 3, slidesToScroll: 3 } },
+      { breakpoint: 600, settings: { slidesToShow: 2, slidesToScroll: 2 } },
+      { breakpoint: 480, settings: { slidesToShow: 1, slidesToScroll: 1 } },
     ],
   };
 
-  const handlePrev = () => {
-    sliderRef.current.slickPrev(); 
-  };
+  const handlePrev = () => sliderRef.current.slickPrev();
+  const handleNext = () => sliderRef.current.slickNext();
 
-  const handleNext = () => {
-    sliderRef.current.slickNext(); 
-  };
-
-  
-  const renderStars = (stars) => {
-    const starIcons = [];
-    for (let i = 0; i < stars; i++) {
-      starIcons.push(<AiFillStar key={i} />);
-    }
-    return starIcons;
-  };
+  const renderStars = (stars) => Array.from({ length: stars }, (_, i) => <AiFillStar key={i} />);
 
   return (
     <div className="relative">
       <div className="father bg-white border border-gray-300 rounded-lg p-14 mt-2">
         <div className="heading bg-[#F9F9F9] flex gap-4 h-[50px] items-center pl-[20px]">
           <h1>{heading}</h1>
-          <button className="bg-[#003380] text-white p-1 rounded-sm">
-            View All
-          </button>
+          <button className="bg-[#003380] text-white p-1 rounded-sm">View All</button>
         </div>
         <div className="slider-container overflow-hidden">
           <Slider {...settings} ref={sliderRef}>
             {products.map((product, index) => (
               <Link
                 key={index}
-                to={`/product?productId=${product._id}&productName=${product.product_name}&productImage=${product.product_image}&price=${product.price}&stars=${product.stars}`}
+                to={`/product?productId=${product._id}&productName=${product.product_name}`}
               >
                 <div className="p-5">
                   <img
                     className="hover:scale-105 transition-transform duration-300 ease-in-out"
                     width={"200px"}
                     src={product.product_image}
-                    alt=""
+                    alt={product.product_name}
                   />
                   <p>{product.product_name}</p>
                   <p>
-                    Offer Price :{" "}
-                    <span className="text-black font-bold">
-                      ₹{product.price}
-                    </span>
+                    Offer Price: <span className="text-black font-bold">₹{product.price}</span>
                   </p>
                   <p className="flex items-center">
                     Rating: {renderStars(product.stars)}
@@ -143,7 +99,7 @@ export const ProductSlider = ({ url, heading }) => {
         className="prev-btn absolute top-1/2 left-0 transform -translate-y-1/2"
         onClick={handlePrev}
       >
-        <GrPrevious className="bg-[#ffffff7a] h-[100px] w-10 text-black  border-[2px] " />
+        <GrPrevious className="bg-[#ffffff7a] h-[100px] w-10 text-black border-[2px]" />
       </button>
       <button
         className="next-btn absolute top-1/2 right-0 transform -translate-y-1/2"
