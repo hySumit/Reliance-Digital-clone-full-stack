@@ -3,7 +3,7 @@ const { Schema, model } = require("mongoose");
 const cartSchema = new Schema({
   user: { type: Schema.Types.ObjectId, ref: 'users', required: true },
   items: [{
-    product: { type: Schema.Types.ObjectId, ref: 'products', required: true }, // Reference the 'products' collection
+    product: { type: Schema.Types.ObjectId, ref: 'products', required: true }, 
     quantity: { type: Number, default: 1 }
   }]
 }, { versionKey: false });

@@ -1,12 +1,12 @@
 const express = require('express');
 const router = express.Router();
-const auth = require('../middleware/auth.middleware'); // Assuming authMiddleware is in the same directory
+const auth = require('../middleware/auth.middleware'); 
 
-const cartModel = require('../model/cart.model'); // Assumed
+const cartModel = require('../model/cart.model'); 
 
 router.post('/add', auth, async (req, res) => {
   try {
-    const { product_id, quantity } = req.body; // Ensure this matches the request body field name
+    const { product_id, quantity } = req.body; 
     const userId = req.body.userID;
 
     const cart = await cartModel.findOneAndUpdate(
@@ -45,9 +45,9 @@ router.get('/', auth, async (req, res) => {
       const userId = req.body.userID;
   
       const cart = await cartModel.findOne({ user: userId }).populate({
-        path: 'items.product', // Populate the 'product' field in each item
+        path: 'items.product',
         model: 'products',
-        select: 'product_name product_image price' // Select specific product fields
+        select: 'product_name product_image price' 
       });
   
       if (!cart) {

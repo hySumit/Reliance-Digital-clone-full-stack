@@ -14,7 +14,7 @@ export const ProductSlider = ({ url, heading }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const resp = await axios.get(url,{withCredentials:true});
+        const resp = await axios.get(url);
         console.log(resp, "lione no 18 ")
         setProducts(resp.data.products.slice(0, 10));
         console.log(resp.data.products, "log on line 32");
